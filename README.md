@@ -1,4 +1,4 @@
-# Rodrigo's Arch / Hyprland dotfiles
+# Cyberpunk dotfiles
 
 Configuração portátil do meu desktop Arch Linux + Hyprland. O conteúdo foi
 portado da instalação atual, mas referências ao usuário `/home/amitis`, aos
@@ -7,7 +7,7 @@ monitores atuais e a estado de sessão foram removidas.
 ## Instalação
 
 ```bash
-git clone <URL-DESTE-REPO> ~/dotfiles
+git clone https://github.com/Rodericuss/dotfiles-cyberpunk.git ~/dotfiles
 cd ~/dotfiles
 ./install.sh --dry-run
 ./install.sh
@@ -80,3 +80,7 @@ Cookies, perfis completos do Firefox, histórico do clipboard, tokens do GitHub,
 sessões do Herdr, binários de aplicativos, caches, serviços pessoais, Android
 SDK, credenciais e o acervo inteiro de wallpapers ficaram fora. Se quiser
 adicionar outro wallpaper, coloque-o em `wallpapers/` e rode o instalador novamente.
+
+## Neobrutalist theme
+
+The pastel and ink desktop has its own repository: [dotfiles-neobrutalist](https://github.com/Rodericuss/dotfiles-neobrutalist). This repository contains the cyberpunk setup.
